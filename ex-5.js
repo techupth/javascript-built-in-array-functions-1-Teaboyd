@@ -5,7 +5,7 @@ const students = [
   { name: "Joan", score: 95 },
 ];
 
-function getAverageStudentScore(students) {
+function getAverageStudentScore(student) {
   // Start coding here
 }
 

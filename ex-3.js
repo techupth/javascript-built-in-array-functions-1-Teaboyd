@@ -6,11 +6,13 @@ const todos = [
   { topic: "Clean the room", completed: true },
 ];
 
-function getTodoTopics(todos) {
+function getTodoTopics(todo,pati) {
   // Start coding here
+  return todo + pati.topic;
 }
 
-getTodoTopics(todos);
+const Output = todos.reduce(getTodoTopics,0);
+console.log(`${Output}`);
 
 /* 
 	Output:
